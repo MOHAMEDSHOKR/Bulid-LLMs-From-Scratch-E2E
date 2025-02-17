@@ -42,6 +42,32 @@ recognizing patterns, and making decisions, and includes subfields like machine
 learning and deep learning.
 
 
+# 1.2 Applications of LLMs
+Owing to their advanced capabilities to parse and understand unstructured text data,
+LLMs have a broad range of applications across various domains. Today, LLMs are
+employed for machine translation, generation of novel texts (see figure 1.2), sentiment
+analysis, text summarization, and many other tasks. LLMs have recently been
+used for content creation, such as writing fiction, articles, and even computer code.
+LLMs can also power sophisticated chatbots and virtual assistants, such as OpenAI’s
+ChatGPT or Google’s Gemini (formerly called Bard), which can answer user queries
+and augment traditional search engines such as Google Search or Microsoft Bing.
+Moreover, LLMs may be used for effective knowledge retrieval from vast volumes
+of text in specialized areas such as medicine or law. This includes sifting through documents,
+summarizing lengthy passages, and answering technical questions.
+In short, LLMs are invaluable for automating almost any task that involves parsing
+and generating text. Their applications are virtually endless, and as we continue to
+innovate and explore new ways to use these models, it’s clear that LLMs have the
+potential to redefine our relationship with technology, making it more conversational,
+intuitive, and accessible.
+
+
+We will focus on understanding how LLMs work from the ground up, coding an
+LLM that can generate texts. You will also learn about techniques that allow LLMs to
+carry out queries, ranging from answering questions to summarizing text, translating
+text into different languages, and more. In other words, you will learn how complex
+LLM assistants such as ChatGPT work by building one step by step.
+
+
 
 
 
