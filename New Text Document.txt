@@ -1,0 +1,36 @@
+
+import urllib.request
+import re
+url = ("https://raw.githubusercontent.com/rasbt/"
+"LLMs-from-scratch/main/ch02/01_main-chapter-code/"
+"the-verdict.txt")
+file_path = "the-verdict.txt"
+urllib.request.urlretrieve(url, file_path)
+with open("the-verdict.txt", "r", encoding="utf-8") as f:
+     raw_text = f.read()
+# new_text = """ It's the last he painted, you know,"
+# Mrs. Gisburn said with pardonable pride."""
+print("Total number of character:", len(raw_text))
+print(raw_text[:99])
+
+preprocced = re.split(r'([,.:;?_!"()\']|--|\s)', raw_text)
+preprocced = [item.strip() for item in preprocced if item.strip()]
+
+print(len(preprocced))
+print(preprocced[:30])
+
+all_words = sorted(set(preprocced))
+
+vocab_size = len(all_words)
+print(vocab_size)
+
+# now we will impelment endcod method to converrt input text into tokens
+#convert Input Text in to tokens then into vocabualry(added for every unique token, token ID)
+
+vocab = {token:integer for integer, token in enumerate(all_words)}
+for i, item in enumerate(vocab.items()):
+     print(item)
+
+     if i >= 50:
+
+      break
