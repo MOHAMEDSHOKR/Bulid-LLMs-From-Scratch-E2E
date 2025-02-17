@@ -1,10 +1,8 @@
 
-This chapter covers
- High-level explanations of the fundamental
-concepts behind large language models (LLMs)
- Insights into the transformer architecture from
-which LLMs are derived
- A plan for building an LLM from scratch
+# This chapter covers
+### *** High-level explanations of the fundamental concepts behind large language models (LLMs)
+### *** Insights into the transformer architecture from which LLMs are derived
+### *** A plan for building an LLM from scratch
 
 Large language models (LLMs), such as those offered in OpenAI’s ChatGPT, are
 deep neural network models that have been developed over the past few years.
@@ -18,8 +16,8 @@ coherent and contextually appropriate original text. For example, previous gener
 of language models could not write an email from a list of keywords—a task
 that is trivial for contemporary LLMs.
 
-LLMs have remarkable capabilities to understand, generate, and interpret human
-language. However, it’s important to clarify that when we say language models “understand,”
+### *** LLMs have remarkable capabilities to understand, generate, and interpret human language.
+However, it’s important to clarify that when we say language models “understand,”
 we mean that they can process and generate text in ways that appear coherent
 and contextually relevant, not that they possess human-like consciousness or
 comprehension.
@@ -30,12 +28,13 @@ contextual information and subtleties of human language compared to previous
 approaches. As a result, LLMs have significantly improved performance in a wide
 range of NLP tasks, including text translation, sentiment analysis, question answering,
 and many more.
-Another important distinction between contemporary LLMs and earlier NLP models
+### *** Another important distinction between contemporary LLMs and earlier NLP models
 is that earlier NLP models were typically designed for specific tasks, such as text
 categorization, language translation, etc. While those earlier NLP models excelled in
 their narrow applications, LLMs demonstrate a broader proficiency across a wide
 range of NLP tasks.
-The success behind LLMs can be attributed to the transformer architecture that
+
+### *** The success behind LLMs can be attributed to the transformer architecture that
 underpins many LLMs and the vast amounts of data on which LLMs are trained,
 allowing them to capture a wide variety of linguistic nuances, contexts, and patterns
 that would be challenging to encode manually.
