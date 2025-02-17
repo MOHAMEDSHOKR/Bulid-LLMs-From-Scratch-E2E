@@ -30,3 +30,21 @@ of language to train models on understanding context, structure, and relationshi
 within text. Yet, it is a very simple task, and so it is surprising to many researchers that
 it can produce such capable models. In later chapters, we will discuss and implement
 the next-word training procedure step by step.
+
+LLMs utilize an architecture called the transformer, which allows them to pay selective
+attention to different parts of the input when making predictions, making them
+especially adept at handling the nuances and complexities of human language.
+Since LLMs are capable of generating text, LLMs are also often referred to as a form
+of generative artificial intelligence, often abbreviated as generative AI or GenAI. As illustrated
+in figure 1.1, AI encompasses the broader field of creating machines that can
+perform tasks requiring human-like intelligence, including understanding language,
+recognizing patterns, and making decisions, and includes subfields like machine
+learning and deep learning.
+
+
+
+
+
+
+
+
