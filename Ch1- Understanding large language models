@@ -126,7 +126,32 @@ shown), which allows the model to weigh the importance of different words or tok
 in a sequence relative to each other. This mechanism enables the model to capture
 long-range dependencies and contextual relationships within the input data, enhancing
 its ability to generate coherent and contextually relevant output. However, due to
+its complexity, we will defer further explanation to chapter 3, where we will discuss
+and implement it step by step.
 
+Later variants of the transformer architecture, such as BERT (short for bidirectional
+encoder representations from transformers) and the various GPT models (short for generative
+pretrained transformers), built on this concept to adapt this architecture for different
+tasks. If interested, refer to appendix B for further reading suggestions.
+BERT, which is built upon the original transformer’s encoder submodule, differs
+in its training approach from GPT. While GPT is designed for generative tasks, BERT
+and its variants specialize in masked word prediction, where the model predicts masked
+
+or hidden words in a given sentence, as shown in figure 1.5. This unique training strategy
+equips BERT with strengths in text classification tasks, including sentiment prediction
+and document categorization. As an application of its capabilities, as of this writing, X
+(formerly Twitter) uses BERT to detect toxic content.
+
+GPT, on the other hand, focuses on the decoder portion of the original transformer
+architecture and is designed for tasks that require generating texts. This includes
+machine translation, text summarization, fiction writing, writing computer code,
+and more.
+GPT models, primarily designed and trained to perform text completion tasks,
+also show remarkable versatility in their capabilities. These models are adept at executing
+both zero-shot and few-shot learning tasks. Zero-shot learning refers to the ability
+to generalize to completely unseen tasks without any prior specific examples. On
+the other hand, few-shot learning involves learning from a minimal number of examples
+the user provides as input
 
 
 
