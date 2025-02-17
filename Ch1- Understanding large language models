@@ -1,5 +1,5 @@
 
-This chapter covers
+# This chapter covers
  High-level explanations of the fundamental
 concepts behind large language models (LLMs)
  Insights into the transformer architecture from
@@ -14,3 +14,19 @@ so, What is LLMs ?
 Large language models (LLMs), such as those offered in OpenAI’s ChatGPT, are
 deep neural network models that have been developed over the past few years.
 They ushered in a new era for natural language processing (NLP).
+
+
+1.1 What is an LLM?
+An LLM is a neural network designed to understand, generate, and respond to humanlike
+text. These models are deep neural networks trained on massive amounts of text
+data, sometimes encompassing large portions of the entire publicly available text on
+the internet.
+The “large” in “large language model” refers to both the model’s size in terms of
+parameters and the immense dataset on which it’s trained. Models like this often have
+tens or even hundreds of billions of parameters, which are the adjustable weights in
+the network that are optimized during training to predict the next word in a sequence.
+Next-word prediction is sensible because it harnesses the inherent sequential nature
+of language to train models on understanding context, structure, and relationships
+within text. Yet, it is a very simple task, and so it is surprising to many researchers that
+it can produce such capable models. In later chapters, we will discuss and implement
+the next-word training procedure step by step.
