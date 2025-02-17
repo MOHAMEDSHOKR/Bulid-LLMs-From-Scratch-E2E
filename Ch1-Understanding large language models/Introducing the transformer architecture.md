@@ -232,31 +232,30 @@ I hope you are looking forward to embarking on this exciting journey!
 
 
 # Summary
- LLMs have transformed the field of natural language processing, which previously
+### *** LLMs have transformed the field of natural language processing, which previously
 mostly relied on explicit rule-based systems and simpler statistical methods.
 The advent of LLMs introduced new deep learning-driven approaches
-that led to advancements in understanding, generating, and translating human
-language.
- Modern LLMs are trained in two main steps:
+that led to advancements in understanding, generating, and translating human language.
+### *** Modern LLMs are trained in two main steps:
 – First, they are pretrained on a large corpus of unlabeled text by using the
 prediction of the next word in a sentence as a label.
 – Then, they are fine-tuned on a smaller, labeled target dataset to follow
 instructions or perform classification tasks.
- LLMs are based on the transformer architecture. The key idea of the transformer
+### *** LLMs are based on the transformer architecture. The key idea of the transformer
 architecture is an attention mechanism that gives the LLM selective
 access to the whole input sequence when generating the output one word at
 a time.
- The original transformer architecture consists of an encoder for parsing text
+### *** The original transformer architecture consists of an encoder for parsing text
 and a decoder for generating text.
- LLMs for generating text and following instructions, such as GPT-3 and
+### *** LLMs for generating text and following instructions, such as GPT-3 and
 ChatGPT, only implement decoder modules, simplifying the architecture.
- Large datasets consisting of billions of words are essential for pretraining
+### *** Large datasets consisting of billions of words are essential for pretraining
 LLMs.
- While the general pretraining task for GPT-like models is to predict the next
+### *** While the general pretraining task for GPT-like models is to predict the next
 word in a sentence, these LLMs exhibit emergent properties, such as capabilities
 to classify, translate, or summarize texts.
- Once an LLM is pretrained, the resulting foundation model can be fine-tuned
+### *** Once an LLM is pretrained, the resulting foundation model can be fine-tuned
 more efficiently for various downstream tasks.
- LLMs fine-tuned on custom datasets can outperform general LLMs on specific
+### ***LLMs fine-tuned on custom datasets can outperform general LLMs on specific
 tasks.
 
