@@ -42,7 +42,7 @@ recognizing patterns, and making decisions, and includes subfields like machine
 learning and deep learning.
 
 
-# 1.2 Applications of LLMs
+1.2 Applications of LLMs
 Owing to their advanced capabilities to parse and understand unstructured text data,
 LLMs have a broad range of applications across various domains. Today, LLMs are
 employed for machine translation, generation of novel texts (see figure 1.2), sentiment
@@ -68,7 +68,64 @@ text into different languages, and more. In other words, you will learn how comp
 LLM assistants such as ChatGPT work by building one step by step.
 
 
+1.3 Stages of building and using LLMs
+Why should we build our own LLMs? Coding an LLM from the ground up is an excellent
+exercise to understand its mechanics and limitations. Also, it equips us with the
+required knowledge for pretraining or fine-tuning existing open source LLM architectures
+to our own domain-specific datasets or tasks.
 
+
+The first step in creating an LLM is to train it on a large corpus of text data, sometimes
+referred to as raw text. Here, “raw” refers to the fact that this data is just regular text
+without any labeling information. (Filtering may be applied, such as removing formatting
+characters or documents in unknown languages.)
+
+
+This first training stage of an LLM is also known as pretraining, creating an initial pretrained
+LLM, often called a base or foundation model. A typical example of such a model
+is the GPT-3 model (the precursor of the original model offered in ChatGPT). This
+model is capable of text completion—that is, finishing a half-written sentence provided
+by a user. It also has limited few-shot capabilities, which means it can learn to
+perform new tasks based on only a few examples instead of needing extensive training
+data.
+
+
+After obtaining a pretrained LLM from training on large text datasets, where the
+LLM is trained to predict the next word in the text, we can further train the LLM on
+labeled data, also known as fine-tuning.
+The two most popular categories of fine-tuning LLMs are instruction fine-tuning and
+classification fine-tuning. In instruction fine-tuning, the labeled dataset consists of
+instruction and answer pairs, such as a query to translate a text accompanied by the
+correctly translated text. In classification fine-tuning, the labeled dataset consists of
+texts and associated class labels—for example, emails associated with “spam” and “not
+spam” labels.
+We will cover code implementations for pretraining and fine-tuning an LLM, and
+we will delve deeper into the specifics of both instruction and classification fine-tuning
+after pretraining a base LLM.
+
+
+1.4 Introducing the transformer architecture
+Most modern LLMs rely on the transformer architecture, which is a deep neural network
+architecture introduced in the 2017 paper “Attention Is All You Need” (https://
+arxiv.org/abs/1706.03762). To understand LLMs, we must understand the original
+transformer, which was developed for machine translation, translating English texts to
+German and French. A simplified version of the transformer architecture is depicted
+in figure 1.4.
+The transformer architecture consists of two submodules: an encoder and a
+decoder. The encoder module processes the input text and encodes it into a series of
+numerical representations or vectors that capture the contextual information of the
+input. Then, the decoder module takes these encoded vectors and generates the output
+text. In a translation task, for example, the encoder would encode the text from
+the source language into vectors, and the decoder would decode these vectors to generate
+text in the target language. Both the encoder and decoder consist of many layers
+connected by a so-called self-attention mechanism. You may have many questions
+regarding how the inputs are preprocessed and encoded. These will be addressed in a
+step-by-step implementation in subsequent chapters.
+A key component of transformers and LLMs is the self-attention mechanism (not
+shown), which allows the model to weigh the importance of different words or tokens
+in a sequence relative to each other. This mechanism enables the model to capture
+long-range dependencies and contextual relationships within the input data, enhancing
+its ability to generate coherent and contextually relevant output. However, due to
 
 
 
