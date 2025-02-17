@@ -5,3 +5,12 @@ concepts behind large language models (LLMs)
  Insights into the transformer architecture from
 which LLMs are derived
  A plan for building an LLM from scratch
+
+
+Understanding large language models
+
+so, What is LLMs ?
+
+Large language models (LLMs), such as those offered in OpenAI’s ChatGPT, are
+deep neural network models that have been developed over the past few years.
+They ushered in a new era for natural language processing (NLP).
