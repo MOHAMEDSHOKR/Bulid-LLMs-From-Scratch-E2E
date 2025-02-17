@@ -1,1 +1,7 @@
 
+This chapter covers
+ High-level explanations of the fundamental
+concepts behind large language models (LLMs)
+ Insights into the transformer architecture from
+which LLMs are derived
+ A plan for building an LLM from scratch
