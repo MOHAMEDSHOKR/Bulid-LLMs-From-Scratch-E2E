@@ -1,4 +1,4 @@
-# LLMs-From-Scratch-
+# LLMs-From-Scratch
 ### *** Building a Large Language Model (From Scratch) *** to understand and create your own GPT-like large language models (LLMs) from the ground up.
 It begins by focusing on the fundamentals of working with text data and coding attention mechanisms 
 and then guides you through implementing a complete GPT model from scratch.
